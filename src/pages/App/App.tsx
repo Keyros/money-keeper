@@ -1,5 +1,5 @@
 import './App.css'
-import {Home} from "../Home/Home.tsx";
+import {Home} from "@pages/Home/Home.tsx";
 
 const App = () => {
 

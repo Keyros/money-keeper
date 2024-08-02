@@ -24,21 +24,20 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "compilerOptions": {
-      "paths": {
-        "@/*": [
-          "src/*"
-        ],
-        "@components/*": [
-          "src/components/*"
-        ],
-        "@pages/*": [
-          "src/pages/*"
-        ],
-        "@assets/*": [
-          "src/assets/*"
-        ]
-      }
+    "baseUrl": ".",
+    "paths": {
+      "@": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ]
     }
   },
   "include": [
